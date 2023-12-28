@@ -1,0 +1,169 @@
+2023-12-27 18:10:30,955 [10] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully
+2023-12-28 14:17:46,923 [14] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 16:25:19,178 [7] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 16:25:36,371 [9] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 16:26:02,602 [7] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 16:29:55,151 [8] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 16:30:07,680 [9] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 17:45:17,058 [6] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 17:46:24,997 [6] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 17:46:46,956 [8] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 18:01:25,599 [8] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:02:03,213 [7] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:02:18,437 [8] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 18:02:45,014 [7] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 18:03:52,089 [6] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 18:12:39,599 [8] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:13:19,237 [7] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:15:40,895 [6] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:16:13,641 [7] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 62
+ClientConnectionId:b877d37e-f93c-43ac-90c3-4acdee3970ed
+Error Number:8169,State:2,Class:16
+2023-12-28 18:17:24,087 [9] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 62
+ClientConnectionId:d652075c-67a1-4daa-b808-ffe336295862
+Error Number:8169,State:2,Class:16
+2023-12-28 18:24:21,181 [8] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 63
+ClientConnectionId:7cb7f89f-31d2-4ca8-a424-04ec57947534
+Error Number:8169,State:2,Class:16
+2023-12-28 18:32:30,411 [8] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 63
+ClientConnectionId:68f79033-1282-4481-8bd6-23084892b04c
+Error Number:8169,State:2,Class:16
+2023-12-28 18:40:10,114 [8] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:41:15,473 [5] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 18:43:48,035 [6] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 18:44:14,413 [12] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 18:46:14,284 [6] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__6.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 84
+ClientConnectionId:096cefb9-56c7-46f6-a1c2-b1d2f0c2457c
+Error Number:8169,State:2,Class:16
+2023-12-28 18:46:23,821 [7] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with ID: {id}
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass189_0.<ReadAsync>b__0(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_me.DataAccessLibraray.ProductRepository.<GetProductByIdAsync>d__1.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\DataAccessLibrary\ProductRepository.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at refactor_this.Controllers.ProductsController.<GetProductById>d__6.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 84
+ClientConnectionId:096cefb9-56c7-46f6-a1c2-b1d2f0c2457c
+Error Number:8169,State:2,Class:16
+2023-12-28 18:46:58,468 [8] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 18:47:30,400 [6] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 18:47:31,347 [6] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with Name: {name}
+refactor_me.Middleware.CustomException: Product not found.
+   at refactor_this.Controllers.ProductsController.<SearchByName>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 63
+2023-12-28 18:48:00,397 [22] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 18:48:05,536 [22] ERROR refactor_this.Controllers.ProductsController - Error retrieving product with Name: {name}
+refactor_me.Middleware.CustomException: Product not found.
+   at refactor_this.Controllers.ProductsController.<SearchByName>d__5.MoveNext() in D:\Resume_Interview\Interviews\Xero\refactor-this\refactor-this\RefactorThis\Controllers\ProductsController.cs:line 63
+2023-12-28 19:48:38,573 [8] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 19:48:54,318 [8] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {name}
+2023-12-28 19:49:05,344 [6] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 19:49:32,797 [7] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 19:49:57,058 [8] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 19:50:40,104 [6] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 19:51:24,883 [7] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 19:51:46,966 [26] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
+2023-12-28 19:55:40,689 [7] INFO  refactor_this.Controllers.ProductsController - Products retrieved successfully}
+2023-12-28 19:55:52,650 [7] ERROR refactor_this.Controllers.ProductsController - Product not found.
+2023-12-28 19:56:01,080 [9] INFO  refactor_this.Controllers.ProductsController - Product retrieved successfully: {id}
+2023-12-28 19:56:08,699 [7] INFO  refactor_this.Controllers.ProductsController - Product options retrieved successfully}
